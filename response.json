@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "school_name": "Kendriya Vidyalaya No. 2",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Colaba"
+    },
+    {
+        "id": 2,
+        "school_name": "Nath Valley School",
+        "school_district": "Aurangabad",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Satara"
+    },
+    {
+        "id": 3,
+        "school_name": "Hiranandani Foundation School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Powai"
+    },
+    {
+        "id": 4,
+        "school_name": "Bombay Scottish School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Powai"
+    },
+    {
+        "id": 5,
+        "school_name": "Pawar Public School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Chandivali"
+    },
+    {
+        "id": 6,
+        "school_name": "Podar International School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Powai"
+    },
+    {
+        "id": 7,
+        "school_name": "Eldorado Public School",
+        "school_district": "Brampton",
+        "school_state": "Ontario",
+        "school_country": "Canada",
+        "school_block": "25 Wardsville Dr"
+    },
+    {
+        "id": 8,
+        "school_name": "Navy Children School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Colaba"
+    },
+    {
+        "id": 9,
+        "school_name": "Neerja Modi School",
+        "school_district": "Jaipur",
+        "school_state": "Rajasthan",
+        "school_country": "India",
+        "school_block": "Mansarovar"
+    },
+    {
+        "id": 10,
+        "school_name": "Nalanda Public School",
+        "school_district": "Mumbai",
+        "school_state": "Maharashtra",
+        "school_country": "India",
+        "school_block": "Mulund East"
+    }
+]
