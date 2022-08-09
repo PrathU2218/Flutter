@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:shop_app/screens/auth_screen.dart';
 
 class CustomRoute<T> extends MaterialPageRoute<T> {
   CustomRoute({
@@ -12,8 +13,31 @@ class CustomRoute<T> extends MaterialPageRoute<T> {
   @override
   Widget buildTransitions(BuildContext context, Animation<double> animation,
       Animation<double> secondaryAnimation, Widget child) {
-    // TODO: implement buildTransitions
-    return super
-        .buildTransitions(context, animation, secondaryAnimation, child);
+    if (settings.name == '/') {
+      return child;
+    }
+    return FadeTransition(
+      opacity: animation,
+      child: child,
+    );
+  }
+}
+
+class CustomPageTransitionBuilder extends PageTransitionsBuilder {
+  @override
+  Widget buildTransitions<T>(
+    PageRoute<T> route,
+    BuildContext context,
+    Animation<double> animation,
+    Animation<double> secondaryAnimation,
+    Widget child,
+  ) {
+    if (route.settings.name == '/') {
+      return child;
+    }
+    return FadeTransition(
+      opacity: animation,
+      child: child,
+    );
   }
 }
