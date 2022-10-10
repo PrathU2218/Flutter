@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "209790633023",
+    "firebase_url": "https://flutter-course-shop-app-34e6a-default-rtdb.firebaseio.com",
+    "project_id": "flutter-course-shop-app-34e6a",
+    "storage_bucket": "flutter-course-shop-app-34e6a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209790633023:android:bac63a3b783b15b871e48a",
+        "android_client_info": {
+          "package_name": "com.example.shop_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209790633023-t45bsm2i0bc0nc1vvfmcpgqlv7kumjer.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD57S5tFoOCFwEAthtbYAdWG5uGlEtA2Ao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209790633023-t45bsm2i0bc0nc1vvfmcpgqlv7kumjer.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

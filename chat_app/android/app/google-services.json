@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1071328505472",
+    "project_id": "flutter-course-chat-app-e2612",
+    "storage_bucket": "flutter-course-chat-app-e2612.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071328505472:android:ad77635a5802d643a84065",
+        "android_client_info": {
+          "package_name": "com.example.chat_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071328505472-b34t5r7svcd0d56kanmmbt22vhre36c9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXeJNBOH0k-i-GxhQOexlUDqWFJAitmU8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071328505472-b34t5r7svcd0d56kanmmbt22vhre36c9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

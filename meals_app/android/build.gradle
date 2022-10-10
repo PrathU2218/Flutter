@@ -8,6 +8,9 @@ buildscript {
     dependencies {
         classpath 'com.android.tools.build:gradle:7.1.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+        // compile 'com.segment.analytics.android:analytics:4.+'
+        // 'com.segment.analytics.android:analytics:4.10.4'
+        // 'com.segment.analytics.android:analytics:4.+'
     }
 }
 

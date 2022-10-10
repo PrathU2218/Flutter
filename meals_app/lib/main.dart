@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter_segment/flutter_segment.dart';
 import 'package:meals_app/dummy_data.dart';
 import 'package:meals_app/screens/categories_screen.dart';
 import 'package:meals_app/screens/category_meals_screen.dart';
@@ -8,7 +11,21 @@ import 'package:meals_app/screens/tabs_screen.dart';
 
 import 'models/meal.dart';
 
-void main() => runApp(MyApp());
+void main() {
+  String writeKey;
+  runApp(MyApp());
+  if (Platform.isAndroid) {
+    writeKey = "FnOeX0PFngacW7iz60UqMRVWDAK8T5C1";
+  } else {
+    writeKey = "FnOeX0PFngacW7iz60UqMRVWDAK8T5C1";
+  }
+
+  Segment.config(
+      options: SegmentConfig(
+    writeKey: writeKey,
+    trackApplicationLifecycleEvents: true,
+  ));
+}
 
 class MyApp extends StatefulWidget {
   @override

@@ -68,4 +68,8 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    // compile 'com.segment.analytics.android:analytics:4.+'
+        // 'com.segment.analytics.android:analytics:4.10.4'
+        // 'com.segment.analytics.android:analytics:4.+'
+        implementation 'com.segment.analytics.android:analytics:4.10.4'
 }
